@@ -1,3 +1,4 @@
+// Find the number which occurs only once in array
 func singleNumber(nums []int) int {
     num := 0
     dict := make( map[int]int )
